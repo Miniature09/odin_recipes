@@ -20,16 +20,21 @@ body{
 .gallery{
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 40px;
     flex-direction: row;
 }
 .img{
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:6px;
     width: 250px;
+}
+.img:hover{
+    border: 2px solid black;
+    border-radius: 7px;
 }
 .dish{
     text-align: center;
     font-weight: bold;
 }
+
