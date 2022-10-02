@@ -23,4 +23,13 @@ body{
     gap: 35px;
     flex-direction: row;
 }
+.img{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 250px;
+}
+.dish{
+    text-align: center;
+    font-weight: bold;
 }
