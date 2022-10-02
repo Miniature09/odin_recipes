@@ -17,3 +17,10 @@ body{
     height: 100px;
     display: block;
 }
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-direction: row;
+}
+}
