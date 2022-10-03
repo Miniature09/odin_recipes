@@ -16,6 +16,12 @@ body{
     font-family: myFirstFont;
     margin-top: 5px;
 }
+.red{
+    color: #FF0000;
+}
+.blue{
+    color: #0000FF;
+}
 #logo{
     margin-left: auto;
     margin-right: auto;
