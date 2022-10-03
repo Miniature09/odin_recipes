@@ -27,12 +27,13 @@ body{
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 .img{
     display: flex;
     flex-direction: column;
     gap:6px;
+    width: 50%;
 }
 .img:hover{
     border: 2px solid black;
