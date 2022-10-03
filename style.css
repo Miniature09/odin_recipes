@@ -57,6 +57,9 @@ body{
     border: 2px solid black;
     border-radius: 7px;
 }
+img{
+    width: 100%;
+}
 .dish{
     text-align: center;
     font-weight: bold;
