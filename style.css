@@ -2,6 +2,10 @@
     font-family: myFirstFont;
     src: url(comicz.ttf);
 }
+@font-face {
+    font-family: mySecondFont;
+    src: url(comicz.ttf);
+}
 *{
     box-sizing: border-box;
 }
@@ -70,6 +74,19 @@ img{
         font-size: 17px;
     }
 }
+.heading1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 40px;
+    font-family: myFirstFont;
+    margin-top: 5px;
+}
+@media screen and (max-width:500px) and (min-width:300px){
+    .heading1{
+        font-size: 25px;
+    }
+}
 .content1{
     display: flex;
     flex: row wrap;
@@ -86,6 +103,22 @@ img{
 }
 .desc{
     width: 80%;
-    border: 2px solid #FF0000;
+    border: 2px solid #000000;
     border-radius: 20px;
+    background-color: #DEDEDE;
+    font-family: mySecondFont;
+    padding: 25px;
+    padding-top: 3px;
 }
+p{
+    padding: 5px;
+    padding-top: 2px;
+    font-size: 20px; 
+}
+h3{
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
