@@ -70,3 +70,22 @@ img{
         font-size: 17px;
     }
 }
+.content1{
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.image img{
+    border-radius: 20px;
+    width: 100%;
+    transition: border 1s;
+}
+.image img:hover{
+    border: 2px solid #FF0000;
+}
+.desc{
+    width: 80%;
+    border: 2px solid #FF0000;
+    border-radius: 20px;
+}
