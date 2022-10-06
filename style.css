@@ -87,6 +87,42 @@ img{
         font-size: 25px;
     }
 }
+.content1 img{
+    border: 2px solid #FF0000;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.desc{
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: rgb(240, 230, 180);
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.ingr{
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: rgb(240, 230, 180);
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.steps{
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: rgb(240, 230, 180);
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.steps li{
+    margin-bottom: 15px;
+}
+.content{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+/*
 .content{
     display: flex;
     justify-content: center;
